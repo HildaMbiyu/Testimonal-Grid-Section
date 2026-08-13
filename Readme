@@ -1,0 +1,87 @@
+Frontend Mentor — Testiomonial Grid Section Solution
+
+This is my solution to the Testiomonial Grid Section challenge on Frontend Mentor.
+
+Table of contents
+Overview
+  -The challenge
+  -Screenshot
+  -Links
+My process
+  -Built with
+  -What I learned
+  -Continued development
+Author
+
+
+
+Overview
+The challenge
+
+Users should be able to:
+
+View the optimal layout for the site depending on their device's screen size
+See hover states for all interactive elements on the page
+Screenshot
+
+Show Image
+
+![Screenshot of my solution](.images/screenshot.png)
+
+Links
+Solution URL: [View my solution on Frontend Mentor](https://github.com/HildaMbiyu/Testimonal-Grid-Section)
+Live Site URL: https://hildambiyu.github.io/Testimonal-Grid-Section/
+
+My process
+Built with
+Semantic HTML5 markup
+CSS custom properties
+Flexbox
+CSS Grid
+
+What I learned
+
+
+
+I learned how to use CSS Grid to create a complex card layout where some cards span multiple columns:
+
+css
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.card-large {
+  grid-column: span 2;
+}
+
+I also practiced using semantic HTML elements like <article>, <blockquote> and <cite> for testimonial cards:
+
+html
+<article class="card">
+  <blockquote>
+    <p>"An amazing experience that changed my career."</p>
+    <cite>— Daniel Clifford</cite>
+  </blockquote>
+</article>
+
+
+Continued development
+
+I want to get more comfortable with CSS Grid and complex layouts
+I need to practice responsive design and media queries more
+I want to improve my attention to detail when matching designs pixel-perfectly
+
+AI Collaboration
+
+I used Claude (by Anthropic) as a learning partner throughout this project.
+
+What worked well: Getting instant feedback on why my layout was broken and understanding the difference between grid-column: span 2 and grid-column: 1 / 3.
+
+
+Author
+Name: Hilda Wangari Mbiyu
+GitHub: @HildaMbiyu
+Frontend Mentor: @HildaMbiyu
+LinkedIn: Hilda Wangari Mbiyu
